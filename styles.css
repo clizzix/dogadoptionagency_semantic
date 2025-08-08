@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #efefef;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #716f6f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.5em;
+    color: peru
+}
+header p {
+    font-size: 1.2em;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+article {
+    margin-bottom: 20px;
+}
+article h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+}
+article p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+section h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+section ul {
+    list-style-position: inside;
+    padding: 20px;
+}
+section img {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+section form input, section form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+section form input[type="submit"] {
+    background-color: #716f6f;
+    color: white;
+    cursor: pointer;
+}
+section form input[type="submit"]:hover {
+    background-color: #5a5858;
+}
+section form button {
+    padding: 10px;
+    background-color: #716f6f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #716f6f;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
