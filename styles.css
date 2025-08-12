@@ -40,11 +40,15 @@ main {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 article {
-    margin-bottom: 20px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 article h2 {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: #333;
 }
 article p {
@@ -77,6 +81,13 @@ section img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+section ol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
 }
 section form {
     display: flex;
